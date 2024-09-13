@@ -1,0 +1,14 @@
+*{
+    font-family: "Kodchasan", sans-serif;
+  }
+  .carousel, .carousel-inner, .carousel-item {
+    height: 100vh; /* ให้ความสูงของ carousel เต็มหน้าจอ */
+  }
+  .carousel-item img {
+    object-fit: cover; /* ปรับการแสดงผลของภาพให้เต็ม container โดยไม่ทำให้ภาพเบี้ยว */
+    height: 100%; /* ปรับความสูงของภาพให้เต็ม container */
+    width: 100%; /* ปรับความกว้างของภาพให้เต็ม container */
+  }
+
+
+  
